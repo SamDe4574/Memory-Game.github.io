@@ -153,8 +153,12 @@ button:hover{
       width: 175px;
   }
 
-  .deck .card.show {
+  .deck .card.show{
       font-size: 55px;
+  }
+  .deck .card.match {
+    font-size: 55px;
+
   }
 
   .score-panel {
@@ -164,4 +168,5 @@ button:hover{
   .score-panel .restart ,.stars ,#countdowntimer ,.p{
     font-size: 30px;
   }
+
 }

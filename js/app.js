@@ -158,10 +158,6 @@ function removeStars() {
     document.getElementById('2').style.visibility = "hidden";
     document.getElementById('W2').style.visibility = "hidden";
   }
-  if (timecount > 90 || numOfMove > 48){
-    document.getElementById('3').style.visibility = "hidden";
-    document.getElementById('W3').style.visibility = "hidden";
-  }
 }
 
 //this function to restart the game
